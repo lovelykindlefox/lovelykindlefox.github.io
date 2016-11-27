@@ -41,7 +41,7 @@ body {
 
 .sectionBig {
 	width: 100vw;
-	height: 180vh;
+	height: 140vh;
 
 	top:0px;
 	margin: 0px;
@@ -49,7 +49,7 @@ body {
 
 .sectionLarge {
 	width: 100vw;
-	height: 300vh;
+	height: 280vh;
 
 	top:0px;
 	margin: 0px;
@@ -78,6 +78,30 @@ body {
 }
 
 
+.nav {
+	width: 100%;
+	height: 80px;
+	background-size: 100% 80px;
+
+	position: fixed;
+	top: 0px;
+
+	z-index: 99; 
+}
+
+.fillColorful {
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	background: linear-gradient(to right,#f5bad3 0%,#fff8a5 50%,#a5d4f2 100%); 
+	
+	opacity: 0.6;
+}
 
 /************** 
 header
@@ -131,7 +155,8 @@ header
 header: font
 ******************/
 #titleText {
-	font-family: 'Droid Sans', sans-serif;
+	// font-family: 'Droid Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 
 	width: 50%;
 	height: 50px;
@@ -150,16 +175,17 @@ header: font
 	padding-top: 10px;
 }
 
-.decoLine {
-	width: 500px;
+.titleDecoLine {
+	width: 50%;
 	height: 1px;
-	background-size: 500px 1px;
+	background-size: 50% 1px;
 
 	background-color: white;
 
-	position: absolute;
-	top: 80px;
-	left: 0px;
+	position: relative;
+	margin: 0 auto;
+	left: 30%;
+	top: 20%;
 }
 
 #subTitleText {
@@ -187,7 +213,7 @@ header: font
 	text-align: center;
 	position: relative;
 	margin: 0 auto;
-	top: -10px;
+	top: 0px;
 }
 
 /************** 
@@ -195,7 +221,7 @@ section: profile
 ******************/
 #profileArea {
 
-	background-color: #df4f6d;
+	background-color: #e56a8a;
 	position: relative;
 	margin: 0 auto;
 	top: 0px;
@@ -210,7 +236,7 @@ section: profile
 	background-color: white;
 
 	position: absolute;
-	top: 20px;
+	top: 60px;
 	left: 0px;
 
 	z-index: 11;
@@ -224,10 +250,30 @@ section: profile
 	background-color: white;
 
 	position: absolute;
-	bottom: 20px;
+	bottom: 60px;
 	left: 0px;
 
 	z-index: 11;
+}
+
+.areaContent {
+	width: 90%;
+	height: 100%;
+	background-size: 90% 100%;
+
+	position: relative;
+	margin: 0 auto;
+	top: 0%;
+}
+
+.contentBox {
+	width: 100%;
+	height: 90%;
+	background-size: 100% 90%;
+
+	position: relative;
+	margin: 0 auto;
+	top: 5%;
 }
 
 .gridLeft {
@@ -253,33 +299,32 @@ section: profile
 }
 
 
-
 .profilePicBox {
 	width: 400px;
 	height: 400px;
 	background-size: 400px 400px;
 	border-radius: 5px;
 
-	background-color: white;
-
+	// background-color: white;
+	
 	position: relative;
 	margin: 0 auto;
-	top: 90px;
-
+	top: 85px;
 }
 
 #profilePic {
-	width: 360px;
-	height: 360px;
+	width: 400px;
+	height: 400px;
 	background-size: contain;
 	background-image: url(../image/profilePic.png);
 	background-repeat: no-repeat;
+	background-position: 50% 50%;
 	
 	border-radius: 5px;
 
 	position: relative;
 	margin: 0 auto;
-	top: 20px;
+	top: 0px;
 }
 
 .profilePicCover {
@@ -314,13 +359,14 @@ section: profile
 }
 
 .profileTextBox {
-	width: 90%;
+	width: 100%;
 	height: 400px;
-	background-size: 90% 400px;
+	background-size: 100% 400px;
 
 	position: relative;
 	margin: 0 auto;
-	top: 90px;
+	top: 80px;
+	padding-top: 0px;
 }
 
 .profileText {
@@ -328,10 +374,27 @@ section: profile
 	font-size: 20px;
 	text-align: left;
 	letter-spacing: 1px;
-	padding-top: 20px;
+	padding-top: 30px;
+}
+
+#profileLogoPic {
+	width: 80px;
+	height: 80px;
+	background-size: contain;
+
+	background-image: url(../image/lovelyKindleFoxLogo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 
 .profileName {
+	width: 100%;
+	height: 80px;
+	background-size: 100% 80px;
 
 	font-family: 'Raleway', sans-serif;
 
@@ -339,13 +402,29 @@ section: profile
 	font-size: 36px;
 	text-align: left;
 	letter-spacing: 1px;
+	padding-top: 40px;
+
+	position: relative;
+	margin: 0 auto;
 	top: 0px;
+	padding-left: 100px;
 
 }
 
 /************** 
 section: skill & frameworks
 ******************/
+#badgeArea {
+	width: 100%;
+	height: 80%;
+	background-size: 100% 80%;
+
+	position: relative;
+	margin: 0 auto;
+	top: 0px;
+
+}
+
 #skillArea {
 	background-color: white;
 	position: relative;
@@ -421,7 +500,7 @@ section: skill & frameworks
 	width: 100%;
 	height: 60px;
 	background-size: 100% 60px;
-	background-color: #df4f6d;
+	background-color: #e56180;
 
 
 	position: relative;
@@ -440,7 +519,7 @@ section: skill & frameworks
 	width: 100%;
 	height: 60px;
 	background-size: 100% 60px;
-	background-color: #bf8d51;
+	background-color: #82c2d8;
 
 	position: relative;
 	margin: 0 auto;
@@ -452,7 +531,7 @@ section: skill & frameworks
 	width: 160px;
 	height: 160px;
 	background-size: 160px 160px;
-	background-color: #df4f6d;
+	background-color: #e56180;
 
 	position: relative;
 	margin: 0 auto;
@@ -467,7 +546,7 @@ section: skill & frameworks
 	width: 160px;
 	height: 160px;
 	background-size: 160px 160px;
-	background-color: #bf8d51;
+	background-color: #82c2d8;
 
 	position: relative;
 	margin: 0 auto;
@@ -540,7 +619,7 @@ section: skill & frameworks
 	width: 110px;
 	height: 110px;
 	background-size: 110px 110px;
-	border: solid 2px #df4f6d;
+	border: solid 2px #e56180;
 	border-radius: 50% 50%;
 
 	position: relative;
@@ -553,7 +632,7 @@ section: skill & frameworks
 	width: 110px;
 	height: 110px;
 	background-size: 110px 110px;
-	border: solid 2px #bf8d51;
+	border: solid 2px #82c2d8;
 	border-radius: 50% 50%;
 
 	position: relative;
@@ -567,7 +646,7 @@ section: skill & frameworks
 	width: 100%;
 	height: 24px;
 	background-size: 100% 20px;
-	color: #df4f6d;
+	color: #e56180;
 	font-family: 'Raleway', sans-serif;
 
 	font-size: 24px;
@@ -583,7 +662,7 @@ section: skill & frameworks
 	width: 100%;
 	height: 24px;
 	background-size: 100% 20px;
-	color: #bf8d51;
+	color: #82c2d8;
 	font-family: 'Raleway', sans-serif;
 
 	font-size: 24px;
@@ -860,13 +939,14 @@ section: portfolio
 }
 
 #portfolioTitleText {
-	font-family: 'Droid Sans', sans-serif;
+	// font-family: 'Droid Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 
 	width: 50%;
 	height: 50px;
 	background-size: 50% 50px;
 
-	font-size: 40px;
+	font-size: 50px;
 	color:  white;
 	letter-spacing: 2px;
 
@@ -879,7 +959,7 @@ section: portfolio
 	padding-top: 0px;
 }
 
-.decoLineUpper {
+.textDecoLineUpper {
 	width: 300px;
 	height: 1px;
 	background-size: 300px 1px;
@@ -888,11 +968,11 @@ section: portfolio
 	position: relative;
 	margin: 0 auto;
 	top: -5px;
-	margin-top: -70px;
+	margin-top: -75px;
 
 }
 
-.decoLineLower {
+.textDecoLineLower {
 	width: 300px;
 	height: 1px;
 	background-size: 300px 1px;
@@ -901,7 +981,7 @@ section: portfolio
 	position: relative;
 	margin: 0 auto;
 	top: -5px;
-	margin-top: 90px;
+	margin-top: 85px;
 }
 
 #portfolioLinkArea {
@@ -919,10 +999,25 @@ section: portfolio
 
 }
 
-.iconTextLight {
+.iconTextBadge {
+	width: 200px;
+	height: 200px;
+	background-size: 200px 200px;
+	border-radius: 50% 50%;
 	
-	font-family: 'Raleway', sans-serif;
-	font-size: 50px;
+	border: solid 3px white;
+	opacity: 0.2;
+
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+
+}
+
+.iconTextLight {
+
+	font-family: 'Lobster', cursive;
+	font-size: 38px;
 	color: white;
 	text-align: center;
 	letter-spacing: 2px;
@@ -930,11 +1025,14 @@ section: portfolio
 
 	position: relative;
 	margin: 0 auto;
-	top: 160px;
+	top: 220px;
 
-	opacity: 0.4;
+	opacity: 0.5;
 
+}
 
+.portfolioIcon:hover {
+	cursor: pointer;
 }
 
 
@@ -1030,7 +1128,7 @@ section: portfolio
 	border-radius: 5px;
 
 	background-color: black;
-	opacity: 0.4;
+	opacity: 0.6;
 
 	position: absolute;
 	left: 0px;
@@ -1047,70 +1145,73 @@ section: resume
 ******************/
 #resumeArea {
 	width: 100%;
-	background-color: #bf8d51;
+	height: 900px;
+	background-size: 100% 900px;
+
+	background-color: #82d1cf;
 
 	position: relative;
 	margin: 0 auto;
 	top: 0px;
 }
 
-#employmentAreaCover {
-	width: 100%;
-	height: 100%;
-	background-size: 100% 100%;
-	background-color: #b6cfd6;
-	opacity: 0.8;
-}
 
 #employmentArea {
 	width: 100%;
-	height: 80%;
-	background-size: 100% 80%;
+	height: 480px;
+	background-size: 100% 480px;
 
 	position: relative;
-	top: 20px;
-	left: 0px;
+	margin: 0 auto;
+	top: 60px;
 
 }
 
 
 #resumeBtnArea {
 	width: 100%;
-	height: 6%;
-	background-size: 100% 6%;
+	height: 60px;
+	background-size: 100% 60px;
 
 	position: relative;
 	margin: 0 auto;
-	top: 20px;
+	top: 60px;
 
-	border: solid 1px black;
+	// border: solid 1px black;
 }
+
+.resumeBtn {
+	position: relative;
+	float: right;
+	top: 15px;
+}
+
 
 
 #educationArea {
 	width: 100%;
-	height: 10%;
-	background-size: 100% 10%;
+	height: 200px;
+	background-size: 100% 200px;
 
 	position: relative;
-	top: 20px;
+	top: 80px;
 	left: 0px;
 
 }
 
 .resumeSubTitle {
-	font-size: 40px;
+	font-size: 36px;
 	color: white;
 
 	font-family: 'Raleway', sans-serif;
 
 	letter-spacing: 2px;
-	padding-left: 20px;
+	padding-left: 0px;
 
 	text-align: left;
 	position: relative;
 	margin: 0 auto;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .columnRight {
@@ -1165,20 +1266,6 @@ section: resume
 
 }
 
-.resumeDescription {
-	width: 130%;
-	font-size: 18px;
-	color: white;
-	margin-top: 20px;
-
-
-}
-
-.resumeSub03 {
-	border: solid 1px green;
-}
-
-
 
 .resumeColumnLeft {
 	width: 40%;
@@ -1190,7 +1277,7 @@ section: resume
 	top: 0px;
 	left: 0px;
 
-	border: solid 1px red;
+	// border: solid 1px red;
 }
 
 .resumeColumnRight {
@@ -1202,19 +1289,154 @@ section: resume
 	float: right;
 	top: 0px;
 	right: 0px;
-	border: solid 1px blue;
+
+	// border: solid 1px blue;
 }
 
 .jobArea {
 	width: 100%;
-	height: 280px;
-	background-size: 100% 2880px;
+	height: 240px;
+	background-size: 100% 240px;
 
-	border: solid 1px green;
+	// border: solid 1px green;
 
 	position: relative;
 	magin: 0 auto;
 	top: 0px;
+}
+
+.jobColumnUpper {
+	width: 100%;
+	height: 80px;
+	background-size: 100% 80px;
+
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+
+	// border: solid 1px pink;
+}
+
+.jobColumnLower {
+	width: 100%;
+	height: 160px;
+	background-size: 100% 160px;
+
+	position: absolute;
+	top: 80px;
+	left: 0px; 
+	
+	border-bottom: dotted 1px white;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+
+	// border: solid 1px purple;
+}
+
+.jobSubColumnLeft {
+	width: 70%;
+	height: 100%;
+	background-size: 70% 100%;
+
+	// border: solid 1px yellow;
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.jobSubColumnRight {
+	width: 30%;
+	height: 100%;
+	background-size: 30% 100%;
+
+	// border: solid 1px black;
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.jobTitleText {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding-top: 28px;
+
+}
+
+.companyNameText {
+	font-family: 'Raleway', sans-serif;
+	color: #e5e5e5;
+	font-size: 20px;
+
+	padding-top: 0px;
+
+}
+
+.durationYearText {
+	font-family: 'Raleway', sans-serif;
+	color: #e5e5e5;
+	font-size: 20px;
+	text-align: right;
+
+	padding-top: 36px;
+	
+}
+
+.jobDescriptionText {
+	color: #29756f;
+	font-size: 18px;
+	padding-top: 18px;
+	letter-spacing: 1px;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.educationSubColumnLeft {
+	width: 70%;
+	height: 100%;
+	background-size: 70% 100%;
+
+	// border: solid 1px yellow;
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.educationSubColumnRight {
+	width: 30%;
+	height: 100%;
+	background-size: 30% 100%;
+
+	// border: solid 1px black;
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+
+.schoolTitleText {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding-top: 28px;
+
+}
+
+.departmentNameText {
+	font-family: 'Raleway', sans-serif;
+	color: #29756f;
+	font-size: 24px;
+
+	padding-top: 0px;
+
 }
 
 
@@ -1237,7 +1459,7 @@ sectionMini: footer
 	background-size: 100% 100%;
 
 	background-color: black;
-	opacity: 0.6;
+	opacity: 0.7;
 
 	position: relative;
 	margin: 0 auto;
@@ -1257,13 +1479,16 @@ sectionMini: footer
 
 .contactTitleText {
 	font-family: 'Raleway', sans-serif;
-	font-size: 38px;
+	font-size: 40px;
 	color: white;
 	letter-spacing: 2px;
 	padding-left: 2px;
 
 	text-align: center;
 	padding-top: 0px;
+
+	position: relative;
+	top: 50px;
 
 }
 
@@ -1278,7 +1503,7 @@ sectionMini: footer
 	letter-spacing: 1px;
 	padding-left: 1px;
 
-	border: solid 1px white;
+	// border: solid 1px white;
 	border-radius: 5px;
 
 	text-align: center;
@@ -1286,7 +1511,7 @@ sectionMini: footer
 	
 	position: relative;
 	margin: 0 auto;
-	top: 50px;
+	top: 60px;
 }
 
 .footerFill {
@@ -1294,16 +1519,19 @@ sectionMini: footer
 	height: 80px;
 	background-size: 100% 80px;
 
-	background-color: white;
+	// background-color: white;
 
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
 
-	font-size: 14px;
-	color: #3c3c3c;
+	font-size: 12px;
+	// color: #3c3c3c;
+	color: white;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 40px;
+
+	opacity: 0.5;
 }
 
 
@@ -1312,7 +1540,7 @@ sectionMini: footer
 	height: 70px;
 	background-size: 100% 70px;
 
-	background-color:  #bf8d51;
+	background-color:  #82c2d8;
 
 	position: absolute;
 	bottom: 0px;

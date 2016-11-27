@@ -40,15 +40,22 @@
     <script src="scripts/lovelyKindleFox.js"></script>
     
     <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Work+Sans" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+  
 
   </head>
 
   <body>
-
+  
+    <!-- <div class="nav">
+      <div class="fillColorful"></div>
+    </div> -->
     <div class="header">
       <div class="bgSliderArea">
           <div id="bg01" class="bgImage"></div>
@@ -56,14 +63,15 @@
 
           <div id="headerContent" class="container">
             <div class="content">
-              <div id="titleText">
-                LovelyKindleFox
-                <div class="decoLine"></div>
+              <div id="titleText" class="wow fadeIn" data-wow-delay="0.5s">
+                Sybil Wang
+                <!-- <div class="decoLine wow slideInRight" data-wow-duration="2s"></div> -->
               </div>
-              <div id="subTitleText">UI/UX Designer</div>
+              <div id="subTitleText" class="wow fadeIn" data-wow-delay="1s">UI/UX Designer</div>
+              <div class="titleDecoLine wow slideInRight"></div>
             </div>
             <div class="pageAngle">
-              <i class="angle down icon white big"></i>  
+              <i class="angle down icon white big wow fadeIn" data-wow-delay="1.5s" data-wow-duration="1.5s"></i>  
             </div>
           </div>
           
@@ -73,31 +81,39 @@
 
     <div id="profileArea" class="section">
       <div class="ui container">
-        <div class="content">
+        <div class="areaContent">
           <div class="sectionDecoLineUpper"></div>
           <div class="sectionDecoLineLower"></div>
-          <div class="gridLeft">
-            <div class="profilePicBox">
-              <div id="profilePic">
-                <div class="profilePicCover"></div>
+          <div class="contentBox">
+            
+            <div class="gridLeft">
+              <div class="profilePicBox">
+                <div id="profilePic"></div>
+              </div>
+            </div>
+            <div class="gridRight">
+              <div class="profileTextBox">
+                <div id="profileLogoPic"></div>
+                <div class="profileName">Profile</div>
+                <div class="profileText">
+                  LovelyKindleFox Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                  <br/><br/>
+                  Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper liber.
+                </div>
               </div>
             </div>
           </div>
-          <div class="gridRight">
-            <div class="profileTextBox">
-              <div class="profileName">Profile</div>
-              <div class="profileText">
-                LovelyKindleFox Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                <br/><br/>
-                Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper liber.
-              </div>
-            </div>
-          </div>
+
+  
         </div>
       </div>
     </div>
+  
+  <div id="badgeArea">
+    
+  </div>
 
-    <div id="skillArea">
+   <!--  <div id="skillArea">
       <div id="badgeGridUnit01" class="ui seven column doubling grid">
         <div id="badgeGridUnit01Line"></div>
         <div class="column">
@@ -231,7 +247,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 
     <div id="portfolioArea" >
     <div class="bgCoverColorful"></div>
@@ -239,9 +255,9 @@
           <div class="content">
             
             <div id="portfolioTitleText">
-              PORTFOLIO
-              <div class="decoLineUpper"></div>
-              <div class="decoLineLower"></div>
+              Portfolio
+              <div class="textDecoLineUpper"></div>
+              <div class="textDecoLineLower"></div>
             </div>
           </div>
       </div>
@@ -251,37 +267,37 @@
       
           <div class="ui three column doubling grid">
             <div class="portfolioBox column">
-              <div id="appsIcon">
+              <div id="appsIcon" class="portfolioIcon" >
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">APPs</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="landingPageIcon">
+              <div id="landingPageIcon" class="portfolioIcon" >
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Landing Page</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="marketingGameIcon">
+              <div id="marketingGameIcon" class="portfolioIcon" >
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Marketing Game</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="logoIcon">
+              <div id="logoIcon" class="portfolioIcon" >
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Logo</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="eBookIcon">
+              <div id="eBookIcon" class="portfolioIcon" >
                 <div class="iconCoverDark"></div>
-                <div class="iconTextLight">eBook</div>
+                <div class="iconTextLight">E-Book</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="webVRIcon">
+              <div id="webVRIcon" class="portfolioIcon" >
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Web VR</div>
               </div>
@@ -294,9 +310,9 @@
   <div class="layerNextBg"></div>
   <div id="layerNext"></div>  
 
-    <div id="resumeArea" class="sectionBig">
-      <div class="container">
-        <div class="content">
+    <div id="resumeArea" class="">
+      <div class="ui container">
+        <div class="areaContent">
           <div class="sectionDecoLineUpper"></div>
           <div class="sectionDecoLineLower"></div>
 
@@ -306,26 +322,107 @@
               </div>
               <div class="resumeColumnRight">
                 <div id="job01" class="jobArea">
-                  
+                  <div class="jobColumnUpper">
+                    <div class="jobSubColumnLeft">
+                      <div class="jobTitleText">Interactive Designer</div>
+                      <div class="companyNameText">KKlabs Inc.</div>
+                    </div>
+                    <div class="jobSubColumnRight" >
+                      <div class="durationYearText">2014 Aug - 2016 Dec</div>
+                    </div>
+                  </div>
+                  <div class="jobColumnLower">
+                    <div class="jobDescriptionText">
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                    </div>
+                  </div>
                 </div>
-                <div id="job02" class="jobArea"></div>
-                <div id="job03" class="jobArea" style="display: none;"></div>
-                <div id="job04" class="jobArea" style="display: none;"></div>
-                <div id="job05" class="jobArea" style="display: none;"></div>
+                <div id="job02" class="jobArea">
+                  <div class="jobColumnUpper">
+                    <div class="jobSubColumnLeft">
+                      <div class="jobTitleText">Bookstore Planning Specialist</div>
+                      <div class="companyNameText">Syntrend Creative Park Co., Ltd.</div>
+                    </div>
+                    <div class="jobSubColumnRight">
+                      <div class="durationYearText">2016 Apr - 2016 Aug</div>
+                    </div>
+                  </div>
+                  <div class="jobColumnLower">
+                    <div class="jobDescriptionText">
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                    </div>
+                  </div>
+                </div>
+                <div id="job03" class="jobArea" style="display: none;">
+                  <div class="jobColumnUpper">
+                    <div class="jobSubColumnLeft">
+                      <div class="jobTitleText">Marketing Executive</div>
+                      <div class="companyNameText">Mr.6 Inc.</div>
+                    </div>
+                    <div class="jobSubColumnRight">
+                      <div class="durationYearText">2013 Aug - 2014 Jan</div>
+                    </div>
+                  </div>
+                  <div class="jobColumnLower">
+                    <div class="jobDescriptionText">
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                    </div>
+                  </div>
+                </div>
+                <div id="job04" class="jobArea" style="display: none;">
+                  <div class="jobColumnUpper">
+                    <div class="jobSubColumnLeft">
+                      <div class="jobTitleText">Editor In Chief</div>
+                      <div class="companyNameText">Fly High / Education Books / Big Tree Publishing Co.</div>
+                    </div>
+                    <div class="jobSubColumnRight">
+                      <div class="durationYearText">2010 Oct - 2013 Aug</div>
+                    </div>
+                  </div>
+                  <div class="jobColumnLower">
+                    <div class="jobDescriptionText">
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                    </div>
+                  </div>
+                </div>
+                <div id="job05" class="jobArea" style="display: none;">
+                  <div class="jobColumnUpper">
+                    <div class="jobSubColumnLeft">
+                      <div class="jobTitleText">Art Design</div>
+                      <div class="companyNameText">Freelancer</div>
+                    </div>
+                    <div class="jobSubColumnRight">
+                      <div class="durationYearText">2008 Jan - 2010 Oct</div>
+                    </div>
+                  </div>
+                  <div class="jobColumnLower">
+                    <div class="jobDescriptionText">
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                    </div>
+                  </div>
+                </div>
               </div>
 
           </div>
 
           <div id="resumeBtnArea">
-            <div id="btnResumeClose" class="ui button basic" onclick="resumeClose()" style="display: none;">close</div>
-            <div id="btnResumeOpen" class="ui button basic" onclick="resumeOpen()">open</div>
+            <div id="btnResumeClose" class="resumeBtn ui button basic" onclick="resumeClose()" style="display: none;">Close</div>
+            <div id="btnResumeOpen" class="resumeBtn ui button basic" onclick="resumeOpen()">Load more...</div>
           </div>
 
           <div id="educationArea">
               <div class="resumeColumnLeft">
                 <div class="resumeSubTitle">Education</div>
               </div>
-              <div class="resumeColumnRight"></div>
+              <div class="resumeColumnRight">
+                    <div class="educationSubColumnLeft">
+                      <div class="schoolTitleText">Chinese Culture University</div>
+                      <div class="departmentNameText">The Department of Applied Science of Living</div>
+                    </div>
+                    <div class="educationSubColumnRight">
+                      <div class="durationYearText">2000 - 2005 </div>
+                    </div>
+              </div>
           </div>
 
         </div>
@@ -336,8 +433,8 @@
       <div class="bgCoverDark"></div>
 
       <div class="contactArea">
-        <div class="contactTitleText">CONTACT</div>
-        <div class="eMailText">lovelykindlefox@gmail.com</div>
+        <div class="contactTitleText">Get In Touch</div>
+        <div class="eMailText">sybil.wish@gmail.com</div>
       </div>
       <div class="footerFill">
         Copyright © 2016 LovelyKindleFox
