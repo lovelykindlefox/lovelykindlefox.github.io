@@ -56,7 +56,39 @@ function resumeOpen() {
 
 }
 
+function showPortfolioContent(k) {
+	$(".allCoverBg").show();
+	$(".portfoloioContentLayer").show();
 
+	$("#contentTitleText0"+k).show();
+
+	if(k==1){
+		showAppsContent();
+	}
+	else
+	{
+
+	}
+
+}
+
+function showAppsContent() {
+	$(".appsContent").show();		
+}
+
+function hideAllContent() {
+	$(".portfolioPicBox").hide();
+	$(".portfolioPicMini").hide();
+	
+}
+
+function closePortfolioContent() {
+	$(".allCoverBg").hide();
+	$(".portfoloioContentLayer").hide();
+
+	$(".contentTitleText").hide();
+	hideAllContent();
+}
 
 // UI Event Effect 
 

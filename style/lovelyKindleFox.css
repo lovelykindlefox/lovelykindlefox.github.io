@@ -1551,22 +1551,23 @@ sectionMini: footer
 /************** 
 layerNext
 ******************/
-#layerNext {
+.portfoloioContentLayer {
 	display: none;
-
-	width: 100%;
-	height: 100%;
-	background-size: 100% 100%;
+	
+	width: 96%;
+	height: 96%;
+	background-size: 96% 96%;
+	background-color: white;
+	border-radius: 5px;
 
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top: 2%;
+	left: 2%;
 	
 	z-index: 1000;
 }
 
-.layerNextBg {
-
+.allCoverBg {
 	display: none;
 
 	width: 100%;
@@ -1579,7 +1580,293 @@ layerNext
 	top: 0px;
 	left: 0px;
 
-	opacity: 0.5;
+	opacity: 0.8;
 	z-index: 999;
 
+}
+
+.contentTitlebar {
+	width: 100%;
+	height: 60px;
+	background-size: 100% 60px;
+	border-radius: 5px 5px 0px 0px;
+
+	position: relative;
+	margin: 0 auto;
+	top: 0px;
+}
+
+.contentTitlebarFill {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	border-radius: 5px 5px 0px 0px;
+
+	background: linear-gradient(to bottom right,#e56a8a 0%,#82d1cf 100%); 
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	border-bottom: solid 1px white;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+
+	opacity: 0.9;
+
+	z-index: 1001;
+}
+
+.contentTitlebarFill:hover {
+
+	background: linear-gradient(to bottom right,#82d1cf 0%,#e56a8a 100%); 
+}
+
+.contentFooterbar {
+
+	width: 100%;
+	height: 100px;
+	background-size: 100% 10px;
+	border-radius: 0px 0px 5px 5px;
+
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+
+}
+
+
+.contentFooterbarCoverBg {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	border-radius: 0px 0px 5px 5px;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	background-color: black;
+	opacity: 0.2;
+}
+
+.contentFooterbarFill {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	border-radius: 0px 0px 5px 5px;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	background: linear-gradient(to bottom right,#82d1cf 0%,#e56a8a 100%); 
+	opacity: 0.4;
+
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+.portfolioContentGridLeft {
+	width: 65%;
+	height: 100%;
+	background-size: 65% 100%;
+	border-radius: 5px 0px 0px 5px;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+}
+
+.portfolioContentGridLeftFill {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	border-radius: 5px 0px 0px 5px;
+
+	background-color: #f4f4f4;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.portfolioContentGridRight {
+	width: 35%;
+	height: 100%;
+	background-size: 35% 100%;
+	border-radius: 0px 5px 5px 0px;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.portfolioContentGridRightFill {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	border-radius: 5px 0px 0px 5px;
+
+	background-color: #e56a8a;
+	opacity: 0.3;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+.contentTitleText {
+
+	display: none;
+
+	font-family: 'Lobster', cursive;
+	font-size: 38px;
+	color: white;
+
+	text-align: left;
+	letter-spacing: 2px;
+	padding-left: 20px;
+	padding-top: 6px;
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	z-index: 1009;
+}
+
+.closePortfolioBtnArea {
+	width: 60px;
+	height: 60px;
+	background-size: 60px 60px;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 1009;
+
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+.closePortfolioBtn:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.portfolioPicBox {
+	display: none;
+
+	width: 600px;
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	position: relative;
+	margin: 0 auto;
+	top: 90px;
+
+
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#appsA01 {
+	background-image: url(../image/quinnPic01.png);
+	
+}
+
+.portfolioPicBar {
+	width: 65%;
+	height: 100%;
+	background-size: 65% 100%;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	padding: 16px;
+}
+
+.portfolioPicMini {
+
+	display: none;
+
+	width: 90px;
+	height: 60px;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.portfolioPicMini:hover {
+	cursor: pointer;
+}
+
+.miniPicMiddle {
+	position: relative;
+	margin: 0 auto;
+	top: 0px;
+}
+
+.miniPicMiddleLeft {
+	position: relative;
+	margin: 0 auto;
+	top: -60px;
+	right: 110px;
+}
+
+.miniPicMiddleRight {
+	position: relative;
+	margin: 0 auto;
+	top: -120px;
+	left: 110px;
+}
+
+.miniPicMiddleLeftLeft {
+	position: relative;
+	margin: 0 auto;
+	top: -180px;
+	right: 220px;
+}
+
+.miniPicMiddleRightRight {
+	position: relative;
+	margin: 0 auto;
+	top: -240px;
+	left: 220px;
+}
+
+
+#appsMiniA01 {
+	background-image: url(../image/quinnPicMini01.png);
+}
+
+.miniIcon01 {
+	opacity: 1;
+}
+
+.miniIcon02 {
+	opacity: 0.5;
+}
+
+.miniIcon03 {
+	opacity: 0.5;
+}
+
+.miniIcon04 {
+	opacity: 0.5;
+}
+
+.miniIcon05 {
+	opacity: 0.5;
+}
+
+.miniIcon06 {
+	opacity: 0.5;
 }

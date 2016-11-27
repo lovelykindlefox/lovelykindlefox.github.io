@@ -250,10 +250,10 @@
     </div> -->
 
     <div id="portfolioArea" >
-    <div class="bgCoverColorful"></div>
+      <div class="bgCoverColorful"></div>
+
       <div id="portfolioTitleArea" class="ui container">
           <div class="content">
-            
             <div id="portfolioTitleText">
               Portfolio
               <div class="textDecoLineUpper"></div>
@@ -264,51 +264,96 @@
   
       <div id="portfolioLinkArea" class="ui containter">
         <div class="content">
-      
           <div class="ui three column doubling grid">
             <div class="portfolioBox column">
-              <div id="appsIcon" class="portfolioIcon" >
+              <div id="appsIcon" class="portfolioContent01 portfolioIcon" onclick="showPortfolioContent(1)">
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">APPs</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="landingPageIcon" class="portfolioIcon" >
+              <div id="landingPageIcon" class="portfolioContent02 portfolioIcon" onclick="showPortfolioContent(2)">
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Landing Page</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="marketingGameIcon" class="portfolioIcon" >
+              <div id="marketingGameIcon" class="portfolioContent03 portfolioIcon" onclick="showPortfolioContent(3)">
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Marketing Game</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="logoIcon" class="portfolioIcon" >
+              <div id="logoIcon" class="portfolioContent04 portfolioIcon" onclick="showPortfolioContent(4)">
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Logo</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="eBookIcon" class="portfolioIcon" >
+              <div id="eBookIcon" class="portfolioContent05 portfolioIcon" onclick="showPortfolioContent(5)">
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">E-Book</div>
               </div>
             </div>
             <div class="portfolioBox column">
-              <div id="webVRIcon" class="portfolioIcon" >
+              <div id="webVRIcon" class="portfolioContent06 portfolioIcon" onclick="showPortfolioContent(6)">
                 <div class="iconCoverDark"></div>
                 <div class="iconTextLight">Web VR</div>
               </div>
             </div>
+        </div>
+      </div>
+
+      <div class="allCoverBg" onclick="closePortfolioContent()"></div>
+      <div class="portfoloioContentLayer">
+        <div class="contentTitlebar" >
+          <div class="contentTitlebarFill"></div>
+          <div id="contentTitleText01" class="contentTitleText">APPs</div>
+          <div id="contentTitleText02" class="contentTitleText">Landing Page</div>
+          <div id="contentTitleText03" class="contentTitleText">Marketing Game</div>
+          <div id="contentTitleText04" class="contentTitleText">Logo</div>
+          <div id="contentTitleText05" class="contentTitleText">E-Book</div>
+          <div id="contentTitleText06" class="contentTitleText">Web VR</div>
+          <div class="closePortfolioBtnArea">
+            <i class="closePortfolioBtn remove icon white big" onclick="closePortfolioContent()"></i>
+          </div>
+        </div>
+
+        <div class="portfolioContentGridLeft">
+          <div class="portfolioContentGridLeftFill"></div>
+
+          <!-- appsContent -->
+          <div id="appsA01" class="appsContent portfolioPicBox"></div>
+
+          <!-- appsContent -->
+
+        </div>
+        <div class="portfolioContentGridRight">
+          <!-- <div class="portfolioContentGridRightFill"></div> -->
+
+        </div>
+
+        <div class="contentFooterbar">
+          <!-- <div class="contentFooterbarCoverBg"></div>
+          <div class="contentFooterbarFill"></div> -->
+
+          <div class="portfolioPicBar">
+
+              <!-- appsContent -->
+              <div id="appsMiniA03" class="miniIcon03 appsContent portfolioPicMini miniPicMiddle"></div>
+              <div id="appsMiniA02" class="miniIcon02 appsContent portfolioPicMini miniPicMiddleLeft"></div>
+              <div id="appsMiniA04" class="miniIcon04 appsContent portfolioPicMini miniPicMiddleRight"></div>
+              <div id="appsMiniA01" class="miniIcon01 appsContent portfolioPicMini miniPicMiddleLeftLeft"></div>
+              <div id="appsMiniA05" class="miniIcon05 appsContent portfolioPicMini miniPicMiddleRightRight"></div>
+            
           </div>
 
         </div>
       </div>
-  
-  <div class="layerNextBg"></div>
-  <div id="layerNext"></div>  
+
+    </div>
+
+
 
     <div id="resumeArea" class="">
       <div class="ui container">
@@ -388,7 +433,7 @@
                 <div id="job05" class="jobArea" style="display: none;">
                   <div class="jobColumnUpper">
                     <div class="jobSubColumnLeft">
-                      <div class="jobTitleText">Art Design</div>
+                      <div class="jobTitleText">Art Designer</div>
                       <div class="companyNameText">Freelancer</div>
                     </div>
                     <div class="jobSubColumnRight">
