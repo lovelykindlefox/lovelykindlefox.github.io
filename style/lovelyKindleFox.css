@@ -370,6 +370,7 @@ section: profile
 }
 
 .profileText {
+	font-family: 'Work Sans', sans-serif;
 	color: white;
 	font-size: 20px;
 	text-align: left;
@@ -1135,6 +1136,20 @@ section: portfolio
 	top: 0px;
 }
 
+.iconCoverDark:hover {
+	background-color: white;
+	opacity: 0.8;
+
+}
+
+.iconCoverDark:hover>.iconTextLight {
+	font-size: 48px;
+	color: black;
+	top: 120px;
+
+	opacity: 0.8;
+}
+
 // .iconCover:hover {
 // 	background-color: black;
 // }
@@ -1389,7 +1404,7 @@ section: resume
 .jobDescriptionText {
 	color: #29756f;
 	font-size: 18px;
-	padding-top: 18px;
+	padding-top: 22px;
 	letter-spacing: 1px;
 	font-family: 'Work Sans', sans-serif;
 
@@ -1554,15 +1569,15 @@ layerNext
 .portfoloioContentLayer {
 	display: none;
 	
-	width: 96%;
-	height: 96%;
-	background-size: 96% 96%;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
 	background-color: white;
-	border-radius: 5px;
+	// border-radius: 5px;
 
 	position: fixed;
-	top: 2%;
-	left: 2%;
+	top: 0px;
+	left: 0px;
 	
 	z-index: 1000;
 }
@@ -1587,9 +1602,9 @@ layerNext
 
 .contentTitlebar {
 	width: 100%;
-	height: 60px;
-	background-size: 100% 60px;
-	border-radius: 5px 5px 0px 0px;
+	height: 50px;
+	background-size: 100% 50px;
+	// border-radius: 5px 5px 0px 0px;
 
 	position: relative;
 	margin: 0 auto;
@@ -1600,7 +1615,7 @@ layerNext
 	width: 100%;
 	height: 100%;
 	background-size: 100% 100%;
-	border-radius: 5px 5px 0px 0px;
+	// border-radius: 5px 5px 0px 0px;
 
 	background: linear-gradient(to bottom right,#e56a8a 0%,#82d1cf 100%); 
 
@@ -1628,7 +1643,7 @@ layerNext
 	width: 100%;
 	height: 100px;
 	background-size: 100% 10px;
-	border-radius: 0px 0px 5px 5px;
+	// border-radius: 0px 0px 5px 5px;
 
 	position: absolute;
 	left: 0px;
@@ -1673,7 +1688,7 @@ layerNext
 	width: 65%;
 	height: 100%;
 	background-size: 65% 100%;
-	border-radius: 5px 0px 0px 5px;
+	// border-radius: 5px 0px 0px 5px;
 
 	position: absolute;
 	top: 0px;
@@ -1685,7 +1700,7 @@ layerNext
 	width: 100%;
 	height: 100%;
 	background-size: 100% 100%;
-	border-radius: 5px 0px 0px 5px;
+	// border-radius: 5px 0px 0px 5px;
 
 	background-color: #f4f4f4;
 
@@ -1698,7 +1713,7 @@ layerNext
 	width: 35%;
 	height: 100%;
 	background-size: 35% 100%;
-	border-radius: 0px 5px 5px 0px;
+	// border-radius: 0px 5px 5px 0px;
 
 	position: absolute;
 	top: 0px;
@@ -1709,7 +1724,7 @@ layerNext
 	width: 100%;
 	height: 100%;
 	background-size: 100% 100%;
-	border-radius: 5px 0px 0px 5px;
+	// border-radius: 5px 0px 0px 5px;
 
 	background-color: #e56a8a;
 	opacity: 0.3;
@@ -1720,12 +1735,13 @@ layerNext
 }
 
 
+
 .contentTitleText {
 
 	display: none;
 
 	font-family: 'Lobster', cursive;
-	font-size: 38px;
+	font-size: 30px;
 	color: white;
 
 	text-align: left;
@@ -1751,7 +1767,7 @@ layerNext
 	z-index: 1009;
 
 	text-align: right;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-right: 10px;
 }
 
@@ -1784,6 +1800,120 @@ layerNext
 	background-image: url(../image/quinnPic02.png);
 }
 
+#appsA03 {
+	background-image: url(../image/quinnPic03.png);
+}
+
+#appsA04 {
+	background-image: url(../image/quinnPic04.png);
+}
+
+#appsA05 {
+	background-image: url(../image/quinnPic05.png);
+}
+
+#landingPageA01 {
+	background-image: url(../image/tinanSpotPic01.png);
+}
+
+#landingPageA02 {
+	background-image: url(../image/tinanSpotPic02.png);
+}
+
+#landingPageA03 {
+	background-image: url(../image/tinanSpotPic03.png);
+}
+
+#landingPageA04 {
+	background-image: url(../image/tinanSpotPic04.png);
+}
+
+#landingPageA05 {
+	background-image: url(../image/tinanSpotPic05.png);
+}
+
+#marketingGameA01 {
+	background-image: url(../image/ghibliPic01.png);
+}
+
+#marketingGameA02 {
+	background-image: url(../image/ghibliPic02.png);
+}
+
+#marketingGameA03 {
+	background-image: url(../image/ghibliPic03.png);
+}
+
+#marketingGameA04 {
+	background-image: url(../image/ghibliPic04.png);
+}
+
+#marketingGameA05 {
+	background-image: url(../image/ghibliPic05.png);
+}
+
+
+#logoA01 {
+	background-image: url(../image/silverLogoPic01.png);
+}
+
+#logoA02 {
+	background-image: url(../image/silverLogoPic02.png);
+}
+
+
+#logoA03 {
+	background-image: url(../image/silverLogoPic03.png);
+}
+
+#logoA04 {
+	background-image: url(../image/silverLogoPic04.png);
+}
+
+#logoA05 {
+	background-image: url(../image/silverLogoPic05.png);
+}
+
+#eBookA01 {
+	background-image: url(../image/ksBookPic01.png);
+}
+
+#eBookA02 {
+	background-image: url(../image/ksBookPic02.png);
+}
+
+#eBookA03 {
+	background-image: url(../image/ksBookPic03.png);
+}
+
+#eBookA04 {
+	background-image: url(../image/ksBookPic04.png);
+}
+
+#eBookA05 {
+	background-image: url(../image/ksBookPic05.png);
+}
+
+#webVRA01 {
+	background-image: url(../image/cabinDayPic01.png);
+}
+
+#webVRA02 {
+	background-image: url(../image/cabinDayPic02.png);
+}
+
+#webVRA03 {
+	background-image: url(../image/cabinDayPic03.png);
+}
+
+#webVRA04 {
+	background-image: url(../image/cabinDayPic04.png);
+}
+
+#webVRA05 {
+	background-image: url(../image/cabinDayPic05.png);
+}
+
 .portfolioPicBar {
 	width: 65%;
 	height: 100%;
@@ -1804,8 +1934,9 @@ layerNext
 	height: 60px;
 	background-size: contain;
 	background-repeat: no-repeat;
-
+	opacity: 0.5;
 }
+
 
 .portfolioPicMini:hover {
 	cursor: pointer;
@@ -1854,26 +1985,155 @@ layerNext
 	background-image: url(../image/quinnPicMini02.png);
 }
 
-.miniIcon01 {
-	opacity: 1;
+#appsMiniA03 {
+	background-image: url(../image/quinnPicMini03.png);
 }
 
-.miniIcon02 {
-	opacity: 0.5;
+#appsMiniA04 {
+	background-image: url(../image/quinnPicMini04.png);
 }
 
-.miniIcon03 {
-	opacity: 0.5;
+#appsMiniA05 {
+	background-image: url(../image/quinnPicMini05.png);
 }
 
-.miniIcon04 {
-	opacity: 0.5;
+#landingPageMiniA01 {
+	background-image: url(../image/tinanSpotPicMini01.png);
 }
 
-.miniIcon05 {
-	opacity: 0.5;
+#landingPageMiniA02 {
+	background-image: url(../image/tinanSpotPicMini02.png);
 }
 
-.miniIcon06 {
-	opacity: 0.5;
+#landingPageMiniA03 {
+	background-image: url(../image/tinanSpotPicMini03.png);
+}
+
+#landingPageMiniA04 {
+	background-image: url(../image/tinanSpotPicMini04.png);
+}
+
+#landingPageMiniA05 {
+	background-image: url(../image/tinanSpotPicMini05.png);
+}
+
+
+#marketingGameMiniA01 {
+	background-image: url(../image/ghibliPicMini01.png);
+}
+
+#marketingGameMiniA02 {
+	background-image: url(../image/ghibliPicMini02.png);
+}
+
+#marketingGameMiniA03 {
+	background-image: url(../image/ghibliPicMini03.png);
+}
+
+#marketingGameMiniA04 {
+	background-image: url(../image/ghibliPicMini04.png);
+}
+
+#marketingGameMiniA05 {
+	background-image: url(../image/ghibliPicMini05.png);
+}
+
+#logoMiniA01 {
+	background-image: url(../image/silverLogoPicMini01.png);
+}
+
+#logoMiniA02 {
+	background-image: url(../image/silverLogoPicMini02.png);
+}
+
+#logoMiniA03 {
+	background-image: url(../image/silverLogoPicMini03.png);
+}
+
+#logoMiniA04 {
+	background-image: url(../image/silverLogoPicMini04.png);
+}
+
+#logoMiniA05 {
+	background-image: url(../image/silverLogoPicMini05.png);
+}
+
+#eBookMiniA01 {
+	background-image: url(../image/ksBookPicMini01.png);
+}
+
+#eBookMiniA02 {
+	background-image: url(../image/ksBookPicMini02.png);
+}
+
+#eBookMiniA03 {
+	background-image: url(../image/ksBookPicMini03.png);
+}
+
+#eBookMiniA04 {
+	background-image: url(../image/ksBookPicMini04.png);
+}
+
+#eBookMiniA05 {
+	background-image: url(../image/ksBookPicMini05.png);
+}
+
+
+#webVRMiniA01 {
+	background-image: url(../image/cabinDayPicMini01.png);
+}
+
+#webVRMiniA02 {
+	background-image: url(../image/cabinDayPicMini02.png);
+}
+
+
+#webVRMiniA03 {
+	background-image: url(../image/cabinDayPicMini03.png);
+}
+
+#webVRMiniA04 {
+	background-image: url(../image/cabinDayPicMini04.png);
+}
+
+
+#webVRMiniA05 {
+	background-image: url(../image/cabinDayPicMini05.png);
+}
+
+.portfolioSubText {
+	display: none;
+
+	font-family: 'Raleway', sans-serif;
+	color: #262626;
+	font-size: 34px;
+	letter-spacing: 2px;
+	padding-top: 100px;
+	padding-left: 40px;
+
+}
+
+.portfolioDescriptionText {
+
+	display: none;
+
+	color: #454545;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'Work Sans', sans-serif;
+
+	padding:20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.portfolioLinkText {
+	display: none;
+
+	font-family: 'Raleway', sans-serif;
+	color: #878787;
+	font-size: 18px;
+
+	padding-top: 8px;
+	padding-left: 40px;
 }

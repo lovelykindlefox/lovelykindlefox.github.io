@@ -82,23 +82,25 @@
     <div id="profileArea" class="section">
       <div class="ui container">
         <div class="areaContent">
-          <div class="sectionDecoLineUpper"></div>
-          <div class="sectionDecoLineLower"></div>
+          <div class="sectionDecoLineUpper wow slideInRight" data-wow-delay="0.5s" data-wow-duration="1s"></div>
+          <div class="sectionDecoLineLower wow slideInLeft" data-wow-delay="0.5s" data-wow-duration="1s"></div>
           <div class="contentBox">
             
             <div class="gridLeft">
               <div class="profilePicBox">
-                <div id="profilePic"></div>
+                <div id="profilePic" class="wow bounceIn" data-wow-delay="1s" data-wow-duration="1.5s"></div>
               </div>
             </div>
             <div class="gridRight">
               <div class="profileTextBox">
-                <div id="profileLogoPic"></div>
+                <div id="profileLogoPic" class="wow flipInX" data-wow-delay="1s" data-wow-duration="1s"></div>
                 <div class="profileName">Profile</div>
                 <div class="profileText">
-                  LovelyKindleFox Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                  Hey, I'm Sybil. I am passionate about making good UI that make an impact. I have over 2.5 years of experience as a UI/UX Designer, also a front-end engineer sometimes. I use a variety of tools to make working prototypes and works. Includes a wide range of projects, from mobile APPs, website design, and iOT technology.
                   <br/><br/>
-                  Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper liber.
+                  ◤ Skill: Photoshop, Illustrator, HTML5, CSS3, Javascript, Git
+                  <br/>
+                  ◤ Frameworks: jQuery, Bootstrap, Semantic-UI, A-Frame, D3.js
                 </div>
               </div>
             </div>
@@ -109,9 +111,9 @@
       </div>
     </div>
   
-  <div id="badgeArea">
+<!--   <div id="badgeArea">
     
-  </div>
+  </div> -->
 
    <!--  <div id="skillArea">
       <div id="badgeGridUnit01" class="ui seven column doubling grid">
@@ -267,44 +269,50 @@
           <div class="ui three column doubling grid">
             <div class="portfolioBox column">
               <div id="appsIcon" class="portfolioContent01 portfolioIcon" onclick="showPortfolioContent(1)">
-                <div class="iconCoverDark"></div>
-                <div class="iconTextLight">APPs</div>
+                <div class="iconCoverDark">
+                  <div class="iconTextLight">APPs</div>
+                </div>
               </div>
             </div>
             <div class="portfolioBox column">
               <div id="landingPageIcon" class="portfolioContent02 portfolioIcon" onclick="showPortfolioContent(2)">
-                <div class="iconCoverDark"></div>
-                <div class="iconTextLight">Landing Page</div>
+                <div class="iconCoverDark">
+                  <div class="iconTextLight">Landing Page</div>
+                </div>
               </div>
             </div>
             <div class="portfolioBox column">
               <div id="marketingGameIcon" class="portfolioContent03 portfolioIcon" onclick="showPortfolioContent(3)">
-                <div class="iconCoverDark"></div>
-                <div class="iconTextLight">Marketing Game</div>
+                <div class="iconCoverDark">
+                  <div class="iconTextLight">Marketing Game</div>
+                </div>
               </div>
             </div>
             <div class="portfolioBox column">
               <div id="logoIcon" class="portfolioContent04 portfolioIcon" onclick="showPortfolioContent(4)">
-                <div class="iconCoverDark"></div>
-                <div class="iconTextLight">Logo</div>
+                <div class="iconCoverDark">
+                  <div class="iconTextLight">Logo</div>
+                </div>
               </div>
             </div>
             <div class="portfolioBox column">
               <div id="eBookIcon" class="portfolioContent05 portfolioIcon" onclick="showPortfolioContent(5)">
-                <div class="iconCoverDark"></div>
-                <div class="iconTextLight">E-Book</div>
+                <div class="iconCoverDark">
+                  <div class="iconTextLight">E-Book</div>
+                </div>
               </div>
             </div>
             <div class="portfolioBox column">
               <div id="webVRIcon" class="portfolioContent06 portfolioIcon" onclick="showPortfolioContent(6)">
-                <div class="iconCoverDark"></div>
-                <div class="iconTextLight">Web VR</div>
+                <div class="iconCoverDark">
+                  <div class="iconTextLight">Web VR</div>
+                </div>
               </div>
             </div>
         </div>
       </div>
 
-      <div class="allCoverBg" onclick="closePortfolioContent()"></div>
+      <!-- <div class="allCoverBg" onclick="closePortfolioContent()"></div> -->
       <div class="portfoloioContentLayer">
         <div class="contentTitlebar" >
           <div class="contentTitlebarFill"></div>
@@ -315,7 +323,7 @@
           <div id="contentTitleText05" class="contentTitleText">E-Book</div>
           <div id="contentTitleText06" class="contentTitleText">Web VR</div>
           <div class="closePortfolioBtnArea">
-            <i class="closePortfolioBtn remove icon white big" onclick="closePortfolioContent()"></i>
+            <i class="closePortfolioBtn remove icon white large" onclick="closePortfolioContent()"></i>
           </div>
         </div>
 
@@ -323,14 +331,125 @@
           <div class="portfolioContentGridLeftFill"></div>
 
           <!-- appsContent -->
-          <div id="appsA01" class="appsContent portfolioPicBox"></div>
-          <div id="appsA02" class="portfolioPicBox"></div>
+          <div id="appsA01" class="appsContentA01 portfolioPicBig portfolioPicBox"></div>
+          <div id="appsA02" class="appsContentA02 portfolioPicBig portfolioPicBox"></div>
+          <div id="appsA03" class="appsContentA03 portfolioPicBig portfolioPicBox"></div>
+          <div id="appsA04" class="appsContentA04 portfolioPicBig portfolioPicBox"></div>
+          <div id="appsA05" class="appsContentA05 portfolioPicBig portfolioPicBox"></div>
 
           <!-- landingPageContent -->
+          <div id="landingPageA01" class="landingPageContentA01 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA02" class="landingPageContentA02 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA03" class="landingPageContentA03 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA04" class="landingPageContentA04 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA05" class="landingPageContentA05 portfolioPicBig portfolioPicBox"></div>
+
+          <!-- markingGameContent -->
+          <div id="marketingGameA01" class="marketingGameContentA01 portfolioPicBig portfolioPicBox"></div>
+          <div id="marketingGameA02" class="marketingGameContentA02 portfolioPicBig portfolioPicBox"></div>
+          <div id="marketingGameA03" class="marketingGameContentA03 portfolioPicBig portfolioPicBox"></div>
+          <div id="marketingGameA04" class="marketingGameContentA04 portfolioPicBig portfolioPicBox"></div>
+          <div id="marketingGameA05" class="marketingGameContentA05 portfolioPicBig portfolioPicBox"></div>
+  
+
+          <!-- logoContent -->
+          <div id="logoA01" class="logoContentA01 portfolioPicBig portfolioPicBox"></div>
+          <div id="logoA02" class="logoContentA02 portfolioPicBig portfolioPicBox"></div>
+          <div id="logoA03" class="logoContentA03 portfolioPicBig portfolioPicBox"></div>
+          <div id="logoA04" class="logoContentA04 portfolioPicBig portfolioPicBox"></div>
+          <div id="logoA05" class="logoContentA05 portfolioPicBig portfolioPicBox"></div>
+
+        <!-- eBookContent -->
+          <div id="eBookA01" class="eBookContentA01 portfolioPicBig portfolioPicBox"></div>
+          <div id="eBookA02" class="eBookContentA02 portfolioPicBig portfolioPicBox"></div>
+          <div id="eBookA03" class="eBookContentA03 portfolioPicBig portfolioPicBox"></div>
+          <div id="eBookA04" class="eBookContentA04 portfolioPicBig portfolioPicBox"></div>
+          <div id="eBookA05" class="eBookContentA05 portfolioPicBig portfolioPicBox"></div>
+
+        <!-- webVRContent -->
+          <div id="webVRA01" class="webVRContentA01 portfolioPicBig portfolioPicBox"></div>
+          <div id="webVRA02" class="webVRContentA02 portfolioPicBig portfolioPicBox"></div>
+          <div id="webVRA03" class="webVRContentA03 portfolioPicBig portfolioPicBox"></div>
+          <div id="webVRA04" class="webVRContentA04 portfolioPicBig portfolioPicBox"></div>
+          <div id="webVRA05" class="webVRContentA05 portfolioPicBig portfolioPicBox"></div>
 
         </div>
         <div class="portfolioContentGridRight">
           <!-- <div class="portfolioContentGridRightFill"></div> -->
+          
+          <!-- appsText Area-->
+          <div class="appsTextA portfolioSubText">Quinn</div>
+          <div class="appsTextA portfolioDescriptionText">
+            Quinn is a iBeacon technical app. It is born to redefine the way how people bid for a restaurants table. In this project, I need to design UI/UX, draw the special restaurant icon and also need to think about all the situation by loacation base.
+            <br/><br/>
+            Skill: Hand Draw, Illustrator, Photoshop, HTML5, CSS3, Javascript, React.js
+          </div>
+          <div class="appsTextA portfolioLinkText">Online:
+            <br/>
+            <a href="https://itunes.apple.com/us/app/quinn/id988342827">iOS</a>
+            <br/>
+            <a href="https://play.google.com/store/apps/details?id=tw.kklabs.quinn">Android</a>
+          </div>
+
+
+          <!-- landingPage Area-->
+          <div class="landingPageTextA portfolioSubText">Tinan Smart City</div>
+          <div class="landingPageTextA portfolioDescriptionText">
+            This Landing Page is a platform introduction. I need to design a new "Tinan City" map, and layout for RWD. In this case, just for fun, I draw a small image by CSS. Please click the web and See the buliding and the trees.
+            <br/><br/>
+            Skill: Illustrator, Photoshop, HTML5, CSS3, Javascript
+          </div>
+          <div class="landingPageTextA portfolioLinkText">Online:
+            <a href="http://tainan.spot.ms/">Tinan Smart City Web</a>
+          </div>
+
+           <!-- marketingGame Area-->
+          <div class="marketingGameTextA portfolioSubText">Ghibli iBeacon Game</div>
+          <div class="marketingGameTextA portfolioDescriptionText">
+            This is a game for Ghibli Exhibition during 2016 Jun-Aug. I need to design the UI and the game flow in a very short working period. In this project, I code to design all the pages and build the game.  
+            <br/><br/>
+            Skill: HTML5, CSS3, Javascript
+          </div>
+          <div class="marketingGameTextA portfolioLinkText">Origin Exhibition FB:
+            <br/>
+            <a href="https://www.facebook.com/TheWorldofStudioGhiblisAnimation">The World of Studio Ghiblis Animation</a>
+          </div>
+
+          <!-- logo Area-->
+          <div class="logoTextA portfolioSubText">SilverEye</div>
+          <div class="logoTextA portfolioDescriptionText">
+            This is a logo for iOT service. It's a Tracker, and a solution platform. So I design this logo by a mechanical bird concept. Also meets the name "SilverEye". I put a play button in this logo's negative space. Means play it, the mechanical bird will start to track.
+            <br/><br/>
+            Skill: Hand Draw, Illustrator
+          </div>
+          <div class="logoTextA portfolioLinkText">Origin Service Landing Page:
+            <br/>
+            <a href="http://www.silvereye.io/">SilverEye.io</a>
+          </div>
+
+          <!-- eBook Area-->
+          <div class="eBookTextA portfolioSubText">Kishu An E-Book</div>
+          <div class="eBookTextA portfolioDescriptionText">
+            This E-Book is designed from paper book. I need to code the RWD with no media query, so it's only one CSS for all the devices. And there's a small collection game in this E-Book. Try read it, play it, and remember to turn on the sound.
+            <br/><br/>
+            Skill: HTML5, CSS3, Javascript
+          </div>
+          <div class="eBookTextA portfolioLinkText">Online:
+            <br/>
+            <a href="http://www.kklabs.tw/ebook/ks01/">Kishu An E-Book</a>
+          </div>
+
+          <!-- webVR Area-->
+          <div class="webVRTextA portfolioSubText">Cabin Day</div>
+          <div class="webVRTextA portfolioDescriptionText">
+            This a web VR Game ,coding with mozillaVR's framework "A-frame". In this project, I need to PS the background image to be a 360° image, and also need to put the 3D object in the correct position. I am still updateing this game. Try it in the google cardboard. 
+            <br/><br/>
+            Skill: Illustrator, Photoshop, HTML5, CSS3, Javascript, A-frame
+          </div>
+          <div class="webVRTextA portfolioLinkText">Online:
+            <br/>
+            <a href="https://event.spot.ms/sybiltest/VRGame01/index.html">Cabin Day</a>
+          </div>
 
         </div>
 
@@ -341,12 +460,49 @@
           <div class="portfolioPicBar">
 
               <!-- appsContent -->
-              <div id="appsMiniA03" class="miniIcon03 appsContent portfolioPicMini miniPicMiddle"></div>
-              <div id="appsMiniA02" class="miniIcon02 appsContent portfolioPicMini miniPicMiddleLeft"></div>
-              <div id="appsMiniA04" class="miniIcon04 appsContent portfolioPicMini miniPicMiddleRight"></div>
-              <div id="appsMiniA01" class="miniIcon01 appsContent portfolioPicMini miniPicMiddleLeftLeft"></div>
-              <div id="appsMiniA05" class="miniIcon05 appsContent portfolioPicMini miniPicMiddleRightRight"></div>
+              <div id="appsMiniA03" class="miniIcon03 appsContent portfolioPicMini miniPicMiddle" onclick="showAppsPic(3)"></div>
+              <div id="appsMiniA02" class="miniIcon02 appsContent portfolioPicMini miniPicMiddleLeft" onclick="showAppsPic(2)"></div>
+              <div id="appsMiniA04" class="miniIcon04 appsContent portfolioPicMini miniPicMiddleRight" onclick="showAppsPic(4)"></div>
+              <div id="appsMiniA01" class="miniIcon01 appsContent portfolioPicMini miniPicMiddleLeftLeft" onclick="showAppsPic(1)"></div>
+              <div id="appsMiniA05" class="miniIcon05 appsContent portfolioPicMini miniPicMiddleRightRight" onclick="showAppsPic(5)"></div>
             
+              <!-- landingPageContent -->
+                <div id="landingPageMiniA03" class="miniIcon03 landingPageContent portfolioPicMini miniPicMiddle" onclick="showlandingPagePic(3)"></div>
+                <div id="landingPageMiniA02" class="miniIcon02 landingPageContent portfolioPicMini miniPicMiddleLeft" onclick="showlandingPagePic(2)"></div>
+                <div id="landingPageMiniA04" class="miniIcon04 landingPageContent portfolioPicMini miniPicMiddleRight" onclick="showlandingPagePic(4)"></div>
+                <div id="landingPageMiniA01" class="miniIcon01 landingPageContent portfolioPicMini miniPicMiddleLeftLeft" onclick="showlandingPagePic(1)"></div>
+                <div id="landingPageMiniA05" class="miniIcon05 landingPageContent portfolioPicMini miniPicMiddleRightRight" onclick="showlandingPagePic(5)"></div>
+
+
+          <!-- marketingGameContent -->
+                <div id="marketingGameMiniA03" class="miniIcon03 marketingGameContent portfolioPicMini miniPicMiddle" onclick="showMarketingGamePic(3)"></div>
+                <div id="marketingGameMiniA02" class="miniIcon02 marketingGameContent portfolioPicMini miniPicMiddleLeft" onclick="showMarketingGamePic(2)"></div>
+                <div id="marketingGameMiniA04" class="miniIcon04 marketingGameContent portfolioPicMini miniPicMiddleRight" onclick="showMarketingGamePic(4)"></div>
+                <div id="marketingGameMiniA01" class="miniIcon01 marketingGameContent portfolioPicMini miniPicMiddleLeftLeft" onclick="showMarketingGamePic(1)"></div>
+                <div id="marketingGameMiniA05" class="miniIcon05 marketingGameContent portfolioPicMini miniPicMiddleRightRight" onclick="showMarketingGamePic(5)"></div>
+
+
+                <!-- logoContent -->
+              <div id="logoMiniA03" class="miniIcon03 logoContent portfolioPicMini miniPicMiddle" onclick="showLogoPic(3)"></div>
+              <div id="logoMiniA02" class="miniIcon02 logoContent portfolioPicMini miniPicMiddleLeft" onclick="showLogoPic(2)"></div>
+              <div id="logoMiniA04" class="miniIcon04 logoContent portfolioPicMini miniPicMiddleRight" onclick="showLogoPic(4)"></div>
+              <div id="logoMiniA01" class="miniIcon01 logoContent portfolioPicMini miniPicMiddleLeftLeft" onclick="showLogoPic(1)"></div>
+              <div id="logoMiniA05" class="miniIcon05 logoContent portfolioPicMini miniPicMiddleRightRight" onclick="showLogoPic(5)"></div>
+
+              <!-- eBookContent -->
+              <div id="eBookMiniA03" class="miniIcon03 eBookContent portfolioPicMini miniPicMiddle" onclick="showEBookPic(3)"></div>
+              <div id="eBookMiniA02" class="miniIcon02 eBookContent portfolioPicMini miniPicMiddleLeft" onclick="showEBookPic(2)"></div>
+              <div id="eBookMiniA04" class="miniIcon04 eBookContent portfolioPicMini miniPicMiddleRight" onclick="showEBookPic(4)"></div>
+              <div id="eBookMiniA01" class="miniIcon01 eBookContent portfolioPicMini miniPicMiddleLeftLeft" onclick="showEBookPic(1)"></div>
+              <div id="eBookMiniA05" class="miniIcon05 eBookContent portfolioPicMini miniPicMiddleRightRight" onclick="showEBookPic(5)"></div>
+
+              <!-- webVRContent -->
+              <div id="webVRMiniA03" class="miniIcon03 webVRContent portfolioPicMini miniPicMiddle" onclick="showWebVRPic(3)"></div>
+              <div id="webVRMiniA02" class="miniIcon02 webVRContent portfolioPicMini miniPicMiddleLeft" onclick="showWebVRPic(2)"></div>
+              <div id="webVRMiniA04" class="miniIcon04 webVRContent portfolioPicMini miniPicMiddleRight" onclick="showWebVRPic(4)"></div>
+              <div id="webVRMiniA01" class="miniIcon01 webVRContent portfolioPicMini miniPicMiddleLeftLeft" onclick="showWebVRPic(1)"></div>
+              <div id="webVRMiniA05" class="miniIcon05 webVRContent portfolioPicMini miniPicMiddleRightRight" onclick="showWebVRPic(5)"></div>
+
           </div>
 
         </div>
@@ -379,7 +535,9 @@
                   </div>
                   <div class="jobColumnLower">
                     <div class="jobDescriptionText">
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                      ◤ Created wireframes and the UX of many interesting mobile web game with iBeacon technology.
+                      <br/>
+                      ◤ Designe UI from Illustrator to Code, all the digital things: image, layout, game, and animation.  
                     </div>
                   </div>
                 </div>
@@ -395,7 +553,9 @@
                   </div>
                   <div class="jobColumnLower">
                     <div class="jobDescriptionText">
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                      ◤ Created wireframes and the UX of bookstore's digital intractive screen.
+                      <br/>
+                      ◤ Bookstore's online marketing operation.
                     </div>
                   </div>
                 </div>
@@ -411,7 +571,9 @@
                   </div>
                   <div class="jobColumnLower">
                     <div class="jobDescriptionText">
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                      ◤ FB Fan Page operation, and FB APPs project management.
+                      <br/>
+                      ◤ Marketing customer service and report analysis. 
                     </div>
                   </div>
                 </div>
@@ -427,7 +589,9 @@
                   </div>
                   <div class="jobColumnLower">
                     <div class="jobDescriptionText">
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                      ◤ Direct and edit a handicraft magazine "Cotton Life", and push it to the TOP 1 in Taiwan bookstore.
+                      <br/>
+                      ◤ Development of magazine's commercial advertising.
                     </div>
                   </div>
                 </div>
@@ -443,7 +607,9 @@
                   </div>
                   <div class="jobColumnLower">
                     <div class="jobDescriptionText">
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                      ◤ Design books, and magazines.
+                      <br/>
+                      ◤ Draw llustration for magazines.
                     </div>
                   </div>
                 </div>
