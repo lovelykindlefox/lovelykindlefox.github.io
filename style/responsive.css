@@ -17,14 +17,271 @@
 
 
 @media only screen and (max-width: 1200px) {
+	.section {
+		width: 100vw;
+		height: 125vh;
+	}
 
+	.gridRight {
+		width: 55%;
+		height: 100%;
+		background-size: 55% 100%;
+
+		position: relative;
+		float: right;
+		right: 0px;
+		top: 0px;
+	}
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1050px) {
 
+
+	#profilePic {
+		width: 340px;
+		height: 340px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 30px;
+	}
+
+	.gridRight {
+		width: 50%;
+		height: 100%;
+		background-size: 50% 100%;
+	}
+
+	.profileName {
+		font-size: 32px;
+	}
+
+	.profileText {
+		font-size: 16px;
+	}
+
+	#appsIcon {
+		width: 260px;
+		height: 260px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 20px;
+		margin-top: 30px;
+	}
+
+	#landingPageIcon {
+		width: 260px;
+		height: 260px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 20px;
+		margin-top: 30px;
+	}
+
+	#marketingGameIcon {
+		width: 260px;
+		height: 260px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 20px;
+		margin-top: 30px;
+	}
+
+	#logoIcon {
+		width: 260px;
+		height: 260px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 20px;
+		margin-top: 30px;
+	}
+
+	#eBookIcon{
+		width: 260px;
+		height: 260px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 20px;
+		margin-top: 30px;
+	}
+
+	#webVRIcon{
+		width: 260px;
+		height: 260px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 20px;
+		margin-top: 30px;
+	}
+
+
+	.iconTextLight {
+		font-size: 30px;
+
+		position: relative;
+		margin: 0 auto;
+		top: 180px;
+
+	}
+
+	.resumeColumnLeft {
+		width: 30%;
+		height: 100%;
+		background-size: 30% 100%;
+	}
+
+	.resumeColumnRight {
+		width: 70%;
+		height: 100%;
+		background-size: 70% 100%;
+	}
+
+	.resumeSubTitle {
+		font-size: 32px;
+	}
+
+	.durationYearText {
+		font-size: 18px;
+	}
+
+	.companyNameText {
+		font-size: 18px;
+
+	}
+
+	.jobTitleText {
+		font-size: 26px;
+	}
+
+	.jobDescriptionText {
+		font-size: 16px;
+
+	}
+
+	.schoolTitleText {
+		font-size: 26px;
+
+	}
+
+	.departmentNameText {
+		font-size: 20px;
+	}
 }
 
 @media only screen and (max-width: 980px) {
+	#titleText {
+		font-size: 40px;
+	}
+
+	.titleDecoLine {
+		top: 18%;
+	}
+
+	#subTitleText {
+		font-size: 22px;
+	}
+
+	.profilePicBox {
+		width: 300px;
+		height: 300px;
+		background-size: 300px 300px;
+		border-radius: 5px;
+	}
+
+	#profilePic {
+		width: 300px;
+		height: 300px;
+		background-size: contain;
+
+		position: relative;
+		margin: 0 auto;
+		top: 50px;
+	}
+
+	/* change this column to upper*/
+	.resumeColumnLeft {
+		width: 100%;
+		height: 8%;
+		background-size: 100% 8%;
+
+		position: relative;
+		float: left;
+		top: 0px;
+		left: 0px;
+	}
+
+	/* change this column to lower*/
+	.resumeColumnRight {
+		width: 100%;
+		height: 88%;
+		background-size: 100% 88%;
+
+		position: relative;
+		float: left;
+		top: 20px;
+		right: 0px;
+
+	}
+
+	.resumeBtn {
+		position: relative;
+		float: right;
+		top: 70px;
+	}
+
+	.jobArea {
+		width: 100%;
+		height: 220px;
+		background-size: 100% 220px;
+
+		position: relative;
+		magin: 0 auto;
+		top: 0px;
+		margin-top: 5px;
+	}
+
+	#educationArea {
+		width: 100%;
+		height: 220px;
+		background-size: 100% 220px;
+
+		position: relative;
+		top: 100px;
+		left: 0px;
+
+	}
+
+	.educationSubColumnLeft {
+		margin-top: 30px;
+	}
+
+	.jobTitleText {
+		font-size: 24px;
+	}
+
+	.schoolTitleText {
+		font-size: 24px;
+	}
+
+	.departmentNameText {
+		font-size: 18px;
+	}
+
+
+
 
 }
 
