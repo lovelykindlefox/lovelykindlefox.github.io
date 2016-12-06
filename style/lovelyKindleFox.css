@@ -1707,6 +1707,42 @@ layerNext
 	right: 0px;
 }
 
+.nextContentPageBtn {
+	display: none;
+
+	position: absolute;
+	bottom: 40px;
+	right: 20px;
+	z-index: 99;
+}
+
+.nextContentPageBtn:hover {
+	cursor: pointer;
+}
+
+.nextContentPageBtn:active {
+	opacity: 0.5;
+}
+
+
+.prevContentPageBtn {
+	display: none;
+
+	position: absolute;
+	bottom: 40px;
+	left: 20px;
+	z-index: 99;
+}
+
+.prevContentPageBtn:hover {
+	cursor: pointer;
+}
+
+.prevContentPageBtn:active {
+	opacity: 0.5;
+}
+
+
 .portfolioContentGridRightFill {
 	width: 100%;
 	height: 100%;
@@ -1817,6 +1853,46 @@ layerNext
 
 #landingPageA05 {
 	background-image: url(../image/tinanSpotPic05.png);
+}
+
+#landingPageB01 {
+	background-image: url(../image/spotContestPic01.png);
+}
+
+#landingPageB02 {
+	background-image: url(../image/spotContestPic02.png);
+}
+
+#landingPageB03 {
+	background-image: url(../image/spotContestPic03.png);
+}
+
+#landingPageB04 {
+	background-image: url(../image/spotContestPic04.png);
+}
+
+#landingPageB05 {
+	background-image: url(../image/spotContestPic05.png);
+}
+
+#landingPageC01 {
+	background-image: url(../image/silverEyeWebPic01.png);
+}
+
+#landingPageC02 {
+	background-image: url(../image/silverEyeWebPic02.png);
+}
+
+#landingPageC03 {
+	background-image: url(../image/silverEyeWebPic03.png);
+}
+
+#landingPageC04 {
+	background-image: url(../image/silverEyeWebPic04.png);
+}
+
+#landingPageC05 {
+	background-image: url(../image/silverEyeWebPic05.png);
 }
 
 #marketingGameA01 {
@@ -2004,6 +2080,45 @@ layerNext
 	background-image: url(../image/tinanSpotPicMini05.png);
 }
 
+#landingPageMiniB01 {
+	background-image: url(../image/spotContestPicMini01.png);
+}
+
+#landingPageMiniB02 {
+	background-image: url(../image/spotContestPicMini02.png);
+}
+
+#landingPageMiniB03 {
+	background-image: url(../image/spotContestPicMini03.png);
+}
+
+#landingPageMiniB04 {
+	background-image: url(../image/spotContestPicMini04.png);
+}
+
+#landingPageMiniB05 {
+	background-image: url(../image/spotContestPicMini05.png);
+}
+
+#landingPageMiniC01 {
+	background-image: url(../image/silverEyeWebPicMini01.png);
+}
+
+#landingPageMiniC02 {
+	background-image: url(../image/silverEyeWebPicMini02.png);
+}
+
+#landingPageMiniC03 {
+	background-image: url(../image/silverEyeWebPicMini03.png);
+}
+
+#landingPageMiniC04 {
+	background-image: url(../image/silverEyeWebPicMini04.png);
+}
+
+#landingPageMiniC05 {
+	background-image: url(../image/silverEyeWebPicMini05.png);
+}
 
 #marketingGameMiniA01 {
 	background-image: url(../image/ghibliPicMini01.png);

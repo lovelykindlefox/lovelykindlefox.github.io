@@ -338,11 +338,24 @@
           <div id="appsA05" class="appsContentA05 portfolioPicBig portfolioPicBox"></div>
 
           <!-- landingPageContent -->
-          <div id="landingPageA01" class="landingPageContentA01 portfolioPicBig portfolioPicBox"></div>
-          <div id="landingPageA02" class="landingPageContentA02 portfolioPicBig portfolioPicBox"></div>
-          <div id="landingPageA03" class="landingPageContentA03 portfolioPicBig portfolioPicBox"></div>
-          <div id="landingPageA04" class="landingPageContentA04 portfolioPicBig portfolioPicBox"></div>
-          <div id="landingPageA05" class="landingPageContentA05 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA01" class="lPCA landingPageContentA01 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA02" class="lPCA landingPageContentA02 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA03" class="lPCA landingPageContentA03 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA04" class="lPCA landingPageContentA04 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageA05" class="lPCA landingPageContentA05 portfolioPicBig portfolioPicBox"></div>
+
+          <div id="landingPageB01" class="lPCB landingPageContentB01 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageB02" class="lPCB landingPageContentB02 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageB03" class="lPCB landingPageContentB03 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageB04" class="lPCB landingPageContentB04 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageB05" class="lPCB landingPageContentB05 portfolioPicBig portfolioPicBox"></div>
+
+          <div id="landingPageC01" class="lPCC landingPageContentC01 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageC02" class="lPCC landingPageContentC02 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageC03" class="lPCC landingPageContentC03 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageC04" class="lPCC landingPageContentC04 portfolioPicBig portfolioPicBox"></div>
+          <div id="landingPageC05" class="lPCC landingPageContentC05 portfolioPicBig portfolioPicBox"></div>
+
 
           <!-- markingGameContent -->
           <div id="marketingGameA01" class="marketingGameContentA01 portfolioPicBig portfolioPicBox"></div>
@@ -376,7 +389,15 @@
         </div>
         <div class="portfolioContentGridRight">
           <!-- <div class="portfolioContentGridRightFill"></div> -->
-          
+          <div id="nextLandingPageBtnA" class="nextContentPageBtn" onclick="showLandingPageContentB()">
+            <i class="chevron circle right icon huge"></i>
+          </div>
+
+           <div id="nextLandingPageBtnB" class="nextContentPageBtn" onclick="showLandingPageContentC()">
+            <i class="chevron circle right icon huge"></i>
+          </div>
+
+
           <!-- appsText Area-->
           <div class="appsTextA portfolioSubText">Quinn</div>
           <div class="appsTextA portfolioDescriptionText">
@@ -401,6 +422,26 @@
           </div>
           <div class="landingPageTextA portfolioLinkText">Online:
             <a href="http://tainan.spot.ms/">Tinan Smart City Web</a>
+          </div>
+
+          <div class="landingPageTextB portfolioSubText">SPOT Contest 2015</div>
+          <div class="landingPageTextB portfolioDescriptionText">
+            This is a online contest web. I need to edit this web very carefully and let people vote in this site when contest is continuing.
+            <br/><br/>
+            Skill: Illustrator, Photoshop, HTML5, CSS3, Javascript
+          </div>
+          <div class="landingPageTextB portfolioLinkText">Online:
+            <a href="https://event.spot.ms/spotContest2015">SPOT Contest 2015</a>
+          </div>
+
+          <div class="landingPageTextC portfolioSubText">SilverEye.io</div>
+          <div class="landingPageTextC portfolioDescriptionText">
+            This is a tracker service web. I need to layout and use css animation to finish the visual effects. And also other service API connect.
+            <br/><br/>
+            Skill: HTML5, CSS3, Javascript
+          </div>
+          <div class="landingPageTextC portfolioLinkText">Online:
+            <a href="http://www.silvereye.io/">SilverEye.io</a>
           </div>
 
            <!-- marketingGame Area-->
@@ -456,6 +497,14 @@
         <div class="contentFooterbar">
           <!-- <div class="contentFooterbarCoverBg"></div>
           <div class="contentFooterbarFill"></div> -->
+          
+          <div id="prevLandingPageBtnB" class="prevContentPageBtn" onclick="showLandingPageContentA()">
+            <i class="chevron circle left icon huge"></i>
+          </div>
+
+          <div id="prevLandingPageBtnC" class="prevContentPageBtn" onclick="showLandingPageContentB()">
+            <i class="chevron circle left icon huge"></i>
+          </div>
 
           <div class="portfolioPicBar">
 
@@ -467,11 +516,23 @@
               <div id="appsMiniA05" class="miniIcon05 appsContent portfolioPicMini miniPicMiddleRightRight" onclick="showAppsPic(5)"></div>
             
               <!-- landingPageContent -->
-                <div id="landingPageMiniA03" class="miniIcon03 landingPageContent portfolioPicMini miniPicMiddle" onclick="showlandingPagePic(3)"></div>
-                <div id="landingPageMiniA02" class="miniIcon02 landingPageContent portfolioPicMini miniPicMiddleLeft" onclick="showlandingPagePic(2)"></div>
-                <div id="landingPageMiniA04" class="miniIcon04 landingPageContent portfolioPicMini miniPicMiddleRight" onclick="showlandingPagePic(4)"></div>
-                <div id="landingPageMiniA01" class="miniIcon01 landingPageContent portfolioPicMini miniPicMiddleLeftLeft" onclick="showlandingPagePic(1)"></div>
-                <div id="landingPageMiniA05" class="miniIcon05 landingPageContent portfolioPicMini miniPicMiddleRightRight" onclick="showlandingPagePic(5)"></div>
+                <div id="landingPageMiniA03" class="miniIcon03 lPCMA portfolioPicMini miniPicMiddle" onclick="showlandingPagePicA(3)"></div>
+                <div id="landingPageMiniA02" class="miniIcon02 lPCMA portfolioPicMini miniPicMiddleLeft" onclick="showlandingPagePicA(2)"></div>
+                <div id="landingPageMiniA04" class="miniIcon04 lPCMA portfolioPicMini miniPicMiddleRight" onclick="showlandingPagePicA(4)"></div>
+                <div id="landingPageMiniA01" class="miniIcon01 lPCMA portfolioPicMini miniPicMiddleLeftLeft" onclick="showlandingPagePicA(1)"></div>
+                <div id="landingPageMiniA05" class="miniIcon05 lPCMA portfolioPicMini miniPicMiddleRightRight" onclick="showlandingPagePicA(5)"></div>
+
+                <div id="landingPageMiniB03" class="miniIcon03 lPCMB portfolioPicMini miniPicMiddle" onclick="showLandingPagePicB(3)"></div>
+                <div id="landingPageMiniB02" class="miniIcon02 lPCMB portfolioPicMini miniPicMiddleLeft" onclick="showLandingPagePicB(2)"></div>
+                <div id="landingPageMiniB04" class="miniIcon04 lPCMB portfolioPicMini miniPicMiddleRight" onclick="showLandingPagePicB(4)"></div>
+                <div id="landingPageMiniB01" class="miniIcon01 lPCMB portfolioPicMini miniPicMiddleLeftLeft" onclick="showLandingPagePicB(1)"></div>
+                <div id="landingPageMiniB05" class="miniIcon05 lPCMB portfolioPicMini miniPicMiddleRightRight" onclick="showLandingPagePicB(5)"></div>
+
+                <div id="landingPageMiniC03" class="miniIcon03 lPCMC portfolioPicMini miniPicMiddle" onclick="showLandingPagePicC(3)"></div>
+                <div id="landingPageMiniC02" class="miniIcon02 lPCMC portfolioPicMini miniPicMiddleLeft" onclick="showLandingPagePicC(2)"></div>
+                <div id="landingPageMiniC04" class="miniIcon04 lPCMC portfolioPicMini miniPicMiddleRight" onclick="showLandingPagePicC(4)"></div>
+                <div id="landingPageMiniC01" class="miniIcon01 lPCMC portfolioPicMini miniPicMiddleLeftLeft" onclick="showLandingPagePicC(1)"></div>
+                <div id="landingPageMiniC05" class="miniIcon05 lPCMC portfolioPicMini miniPicMiddleRightRight" onclick="showLandingPagePicC(5)"></div>
 
 
           <!-- marketingGameContent -->

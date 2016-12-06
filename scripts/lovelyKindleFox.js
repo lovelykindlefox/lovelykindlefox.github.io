@@ -76,7 +76,7 @@ function showPortfolioContent(k) {
 	}
 	else if(k==2)
 	{
-		showLandingPageContent();
+		showLandingPageContentA();
 	}
 	else if(k==3)
 	{
@@ -107,10 +107,66 @@ function showAppsContent() {
 	$(".appsTextA").show();
 }
 
-function showLandingPageContent() {
-	$(".landingPageContent").show();	
-	showlandingPagePic(1);	
+function showLandingPageContentA() {
+	hoverDefine=null;
+
+	$(".lPCMA").show();	
+	$(".lPCMB").hide();	
+	$(".lPCMC").hide();	
+
+	showlandingPagePicA(1);	
+
 	$(".landingPageTextA").show();
+	$(".landingPageTextB").hide();
+	$(".landingPageTextC").hide();
+
+	$("#nextLandingPageBtnA").show();
+	$("#nextLandingPageBtnB").hide();
+
+	$("#prevLandingPageBtnB").hide();
+	$("#prevLandingPageBtnC").hide();
+
+}
+
+function showLandingPageContentB() {
+	hoverDefine=null;
+
+	$(".lPCMB").show();	
+	$(".lPCMA").hide();	
+	$(".lPCMC").hide();
+
+	showLandingPagePicB(1);
+
+	$(".landingPageTextB").show();
+	$(".landingPageTextA").hide();
+	$(".landingPageTextC").hide();
+
+	$("#nextLandingPageBtnB").show();
+	$("#nextLandingPageBtnA").hide();
+
+	$("#prevLandingPageBtnB").show();
+	$("#prevLandingPageBtnC").hide();
+}
+
+
+function showLandingPageContentC() {
+	hoverDefine=null;
+
+	$(".lPCMC").show();	
+	$(".lPCMA").hide();	
+	$(".lPCMB").hide();	
+
+	showLandingPagePicC(1);
+
+	$(".landingPageTextC").show();
+	$(".landingPageTextA").hide();
+	$(".landingPageTextB").hide();
+
+	$("#nextLandingPageBtnA").hide();
+	$("#nextLandingPageBtnB").hide();
+
+	$("#prevLandingPageBtnC").show();
+	$("#prevLandingPageBtnB").hide();
 }
 
 function showMarketingGameContent() {
@@ -119,6 +175,7 @@ function showMarketingGameContent() {
 	$(".marketingGameTextA").show();	
 
 }
+
 
 function showLogoContent() {
 	$(".logoContent").show();	
@@ -188,8 +245,74 @@ function showAppsPic(k) {
 }
 
 
-function showlandingPagePic(k) {
-		if(k==1)
+function showLandingPagePicB(k) {
+	console.log(" show pic B");
+
+	$(".lPCA").hide();
+	$(".lPCC").hide();
+
+	if(k==1)
+	{
+		hoverDefine=1;
+		hoverEffect(hoverDefine);
+		$(".portfolioPicBig").hide();
+		$(".landingPageContentB01").show();
+
+		$(".portfolioPicMini").css("opacity","0.5");
+		$("#landingPageMiniB01").css("opacity","1");
+
+	}
+	else if(k!==1)
+	{
+		hoverDefine=k;
+		hoverEffect(hoverDefine);
+		$(".portfolioPicBig").hide();
+		$(".landingPageContentB0"+k).show();
+
+		$(".portfolioPicMini").css("opacity","0.5");
+		$(".miniIcon01").css("opacity","0.5");
+		$("#landingPageMiniB0"+k).css("opacity","1");
+	}
+}
+
+
+function showLandingPagePicC(k) {
+	console.log(" show pic C");
+
+	$(".lPCA").hide();
+	$(".lPCB").hide();
+
+	if(k==1)
+	{
+		hoverDefine=1;
+		hoverEffect(hoverDefine);
+		$(".portfolioPicBig").hide();
+		$(".landingPageContentC01").show();
+
+		$(".portfolioPicMini").css("opacity","0.5");
+		$("#landingPageMiniC01").css("opacity","1");
+
+	}
+	else if(k!==1)
+	{
+		hoverDefine=k;
+		hoverEffect(hoverDefine);
+		$(".portfolioPicBig").hide();
+		$(".landingPageContentC0"+k).show();
+
+		$(".portfolioPicMini").css("opacity","0.5");
+		$(".miniIcon01").css("opacity","0.5");
+		$("#landingPageMiniC0"+k).css("opacity","1");
+	}
+}
+
+
+function showlandingPagePicA(k) {
+
+	$(".lPCB").hide();
+	$(".lPCC").hide();
+
+	if(k==1)
 	{
 		hoverDefine=1;
 		hoverEffect(hoverDefine);
