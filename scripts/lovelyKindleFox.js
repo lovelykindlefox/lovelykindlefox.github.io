@@ -216,6 +216,10 @@ function closePortfolioContent() {
 
 	$(".contentTitleText").hide();
 	hideAllContent();
+
+	$(".nextContentPageBtn").hide();
+	$(".prevContentPageBtn").hide();
+
 }
 
 
