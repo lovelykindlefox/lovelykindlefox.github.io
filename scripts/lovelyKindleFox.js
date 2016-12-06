@@ -207,6 +207,9 @@ function hideAllContent() {
 	$(".portfolioLinkText").hide();
 	$(".portfolioDescriptionText").hide();
 
+	$(".nextContentPageBtn").hide();
+	$(".prevContentPageBtn").hide();
+	
 	hoverDefine=null;
 }
 
@@ -215,11 +218,8 @@ function closePortfolioContent() {
 	$(".portfoloioContentLayer").hide();
 
 	$(".contentTitleText").hide();
+
 	hideAllContent();
-
-	$(".nextContentPageBtn").hide();
-	$(".prevContentPageBtn").hide();
-
 }
 
 
