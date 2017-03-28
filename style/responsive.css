@@ -18,8 +18,9 @@
 
 @media only screen and (max-width: 1200px) {
 	.section {
-		width: 100vw;
-		height: 125vh;
+	width: 100%;
+	height: 125%;
+	background-size: 100% 125%;
 	}
 
 	.gridRight {
@@ -328,6 +329,27 @@
 		height: 80vh;
 	}
 
+	#profileArea {
+		width: 110%;
+		height: 160%;
+		background-size: 110% 160%;
+		top: -150px;
+	}
+
+	.bgCoverColorful {
+		width: 110%;
+		height: 150%;
+		background-size: 110% 150%;
+			
+		background: linear-gradient(to right,#f5bad3 0%,#fff8a5 50%,#a5d4f2 100%); 
+		
+		position: absolute;
+		top: -150px;
+		left: 0px;
+		opacity: 0.7;
+	}
+
+
 	/* change this column to upper */
 	.gridLeft {
 		width: 100%;
@@ -361,6 +383,14 @@
 		position: relative;
 		margin: 0 auto;
 		top: 0px;
+	}
+
+	#webPortfolio {
+		display: none;
+	}
+
+	#mobilePortfolio {
+		display: block;
 	}
 
 }

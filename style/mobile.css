@@ -255,6 +255,226 @@
 
 	}
 
+	#resumeArea {
+		width: 110%;
+		height: 900px;
+		background-size: 110% 900px;
+
+		background-color: #82d1cf;
+
+		position: relative;
+		margin: 0 auto;
+		top: 0px;
+	}
+
+	#employmentArea {
+		width: 80%;
+		height: 480px;
+		background-size: 80% 480px;
+
+		position: relative;
+		margin: 0 auto;
+		right: 5%;
+		top: 60px;
+
+	}
+
+	.companyNameText {
+		font-size: 16px;
+	}
+
+	.jobSubColumnLeft {
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		margin-top: 20px;
+	}
+
+	.jobSubColumnRight {
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+
+		position: absolute;
+		left: 0px;
+		top: 20px;
+		margin-top: 40px;
+	}
+
+
+	.durationYearText {
+		font-family: 'Raleway', sans-serif;
+		color: #e5e5e5;
+		font-size: 16px;
+		text-align: left;
+
+		padding-top: 36px;
+		
+	}
+
+	.jobColumnLower {
+		width: 100%;
+		height: 160px;
+		background-size: 100% 160px;
+
+		position: absolute;
+		top: 90px;
+		margin-top: 40px;
+		left: 0px; 
+		
+		border-bottom: dotted 1px white;
+		border-left: none;
+		border-top: none;
+		border-right: none;
+
+	}
+
+	.jobArea {
+		width: 100%;
+		height: 240px;
+		background-size: 100% 240px;
+
+
+		position: relative;
+		magin: 0 auto;
+		top: 20px;
+
+	}
+
+	#resumeBtnArea {
+		width: 100%;
+		height: 60px;
+		background-size: 100% 60px;
+
+		position: relative;
+		margin: 0 auto;
+		right: 80px;
+		top: 70px;
+
+	}
+
+
+	#educationArea {
+		width: 90%;
+		height: 200px;
+		background-size: 90% 200px;
+
+		position: relative;
+		top: 130px;
+		margin: 0 auto;
+
+	}
+
+	.educationSubColumnLeft {
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		margin-top: 20px;
+	}
+
+	.educationSubColumnRight {
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+
+		position: absolute;
+		left: 0px;
+		top: 20px;
+		margin-top: 40px;
+	}
+
+	.durationYearText {
+		font-family: 'Raleway', sans-serif;
+		color: #e5e5e5;
+		font-size: 16px;
+		text-align: left;
+
+		padding-top: 56px;
+		
+	}
+
+	.sectionDecoLineUpper {
+		width: 100%;
+		height: 1px;
+		background-size: 100% 1px;
+
+		background-color: white;
+
+		position: absolute;
+		top: 40px;
+		left: 0px;
+
+		z-index: 11;
+	}
+
+	.sectionDecoLineLower {
+		width: 100%;
+		height: 1px;
+		background-size: 100% 1px;
+
+		background-color: white;
+
+		position: absolute;
+		bottom: 40px;
+		left: 0px;
+
+		z-index: 11;
+	}
+
+	.bgCoverDark {
+		width: 110%;
+		height: 100%;
+		background-size: 110% 100%;
+
+		background-color: black;
+		opacity: 0.7;
+
+		position: relative;
+		margin: 0 auto;
+		top: 0px;
+	}
+
+.contactArea {
+	width: 85%;
+	height: 180px;
+	background-size: 85% 180px;
+
+	position: absolute;
+	bottom: 140px;
+	left: 10%;
+
+}
+
+
+.eMailText {
+	width: 400px;
+	height: 54px;
+	background-size: 400px 54px;
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	color: white;
+	letter-spacing: 1px;
+	padding-left: 1px;
+
+	border-radius: 5px;
+
+	text-align: center;
+	right: 5%;
+	padding-top: 10px;
+	
+	position: relative;
+	margin: 0 auto;
+	top: 60px;
+}
 }
 
 @media only screen and (max-width: 375px) {
