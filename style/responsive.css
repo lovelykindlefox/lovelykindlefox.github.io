@@ -181,12 +181,27 @@
 	}
 }
 
+// /* web 1024x542 */
+// @media only screen and (max-width: 1024px) and (max-height: 542px){
+//  	.section {
+// 		width: 100vw;
+// 		height: 110vh;
+// 	}
+
+// 	#profileArea {
+// 		width: 100vw;
+// 		height: 110vh;
+// 	}
+
+// }
+
 /* iPad only */
-@media only screen and (max-width: 1024px) and (max-height: 768px) {
+@media only screen and (max-width: 1024px) and (min-height: 768px) {
  	.section {
 		width: 100vw;
-		height: 85vh;
+		height: 100vh;
 	}
+
 }
 
 
@@ -295,7 +310,19 @@
 }
 
 
+/* <= iPad Width */
 @media only screen and (min-width: 415px) and (max-width: 768px) {
+	.bgImage {
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: 30% 0%;
+		background-repeat: no-repeat;
+
+		position: fixed;
+		top: 0px;
+	}
+
 	.section {
 		width: 100vw;
 		height: 80vh;

@@ -7,12 +7,278 @@
 
 ************************************************************************** */
 @media only screen and (max-width: 414px) {
+	.bgImage {
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: 37% 0%;
+	}
 
+	.bgSliderArea {
+		width: 100%;
+		height: 80%;
+		background-size: 100% 80%;
+
+		position: relative;
+		margin: 0 auto;
+		top: 0px;
+	}
+
+	.bgCover {
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+	}
+
+	.content {
+		width: 90%;
+		height: 90%;
+		background-size: 90% 90%;
+
+		position: relative;
+		margin: 0 auto;
+		top: 5%;
+		right: 10%;
+	}
+
+	#titleText {
+		width: 80%;
+		height: 50px;
+		background-size: 80% 50px;
+
+		font-size: 40px;
+		color: white;
+		letter-spacing: 2px;
+
+		text-align: left;
+
+		position: relative;
+		margin: 0 auto;
+		left: 35%;
+		top: 10%;
+		padding-top: 10px;
+	}
+
+	.titleDecoLine {
+		width: 80%;
+		height: 1px;
+		background-size: 80% 1px;
+
+		background-color: white;
+
+		position: relative;
+		margin: 0 auto;
+		left: 35%;
+		top: 8%;
+	}
+
+	#subTitleText {
+		width: 80%;
+		height: 30px;
+		background-size: 80% 30px;
+
+		font-size: 20px;
+		color: white;
+		letter-spacing: 2px;
+
+		text-align: left;
+
+		position: relative;
+		margin: 0 auto;
+		left: 35%;
+		top: 14%;
+		padding-top: 10px;
+	}
+
+	.pageAngle {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		margin: 0 auto;
+		top: 0px;
+	}
+
+	.section {
+		width: 100vw;
+		height: 100vh;
+	}
+
+	#profileArea {
+		width: 100%;
+		height: 150%;
+		background-size: 100% 150%;
+		top: -150px;
+	}
+
+	.areaContent {
+		width: 110%;
+		height: 100%;
+		background-size: 100% 100%;
+
+		position: relative;
+		margin: 0 auto;
+		top: 0%;
+	}
+
+	.gridLeft {
+		width: 100%;
+		height: 60%;
+		background-size: 100% 60%;
+
+		position: relative;
+		float: left;
+		left: 0px;
+		top: 0px;
+	}
+
+	.profilePicBox {
+		right: 5%;
+		top: 15px;
+	}
+
+	.gridRight {
+		width: 100%;
+		height: 110%;
+		background-size: 100% 110%;
+
+		position: relative;
+		float: left;
+		left: 0px;
+		top: -170px;
+	}
+
+	.profileTextBox {
+		width: 90%;
+		height: 500px;
+		background-size: 90% 500px;
+
+		position: relative;
+		margin: 0 auto;
+		top: 0px;
+		padding-top: 0px;
+	}
+
+	.profileText {
+		width: 90%;
+
+		color: white;
+		font-size: 20px;
+		text-align: left;
+		letter-spacing: 1px;
+		padding-top: 30px;
+	}
+
+	.bgCoverColorful {
+		width: 100%;
+		height: 150%;
+		background-size: 100% 150%;
+			
+		background: linear-gradient(to right,#f5bad3 0%,#fff8a5 50%,#a5d4f2 100%); 
+		
+		position: absolute;
+		top: -150px;
+		left: 0px;
+		opacity: 0.7;
+	}
+
+
+	#portfolioTitleArea {
+		width: 100%;
+		height: 180px;
+		background-size: 100% 180px;
+
+		position: relative;
+		margin: 0 auto;
+		top: -150px;
+
+		margin-bottom: 20px;
+
+		z-index: 23;
+	}
+
+	#portfolioTitleText {
+		width: 50%;
+		height: 50px;
+		background-size: 50% 50px;
+
+		font-size: 40px;
+		text-align: center;
+
+		position: relative;
+		margin: 0 auto;
+		top: -500px;
+		left: 10%;
+
+	}
+
+	.textDecoLineUpper {
+		opacity: 0;
+	}
+
+	.textDecoLineLower {
+		width: 414px;
+	}
+	
+	#webPortfolio {
+		display: none;
+	}
+
+	#mobilePortfolio {
+		display: block;
+	}
+
+	.mobileBoxArea {
+		width: 120%;
+		top: -500px;
+		margin-top: -250px;
+	}
+
+	.portfolioBox {
+		height: 280px;
+
+	}
+
+	.iconTextLight {
+		font-size: 42px;
+		color: white;
+		text-align: center;
+		letter-spacing: 2px;
+		padding-left: 2px;
+
+		position: relative;
+		margin: 0 auto;
+		top: 140px;
+
+		opacity: 0.5;
+
+	}
 
 }
 
 @media only screen and (max-width: 375px) {
+	
 
+	#titleText {
+		left: 30%;
+	}
+
+	.titleDecoLine {
+		left: 30%;
+	}
+
+	#subTitleText {
+		left: 30%;
+	}
+
+	.profileText {
+		width: 90%;
+
+		color: white;
+		font-size: 18px;
+		text-align: left;
+		letter-spacing: 1px;
+		padding-top: 30px;
+	}
 }
 
 
